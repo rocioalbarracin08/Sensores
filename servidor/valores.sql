@@ -1,0 +1,10 @@
+BEGIN TRANSACTION;
+DROP TABLE IF EXISTS "valores";
+CREATE TABLE IF NOT EXISTS "valores" (
+	"id"	INTEGER NOT NULL,
+	"nombre"	TEXT NOT NULL,
+	"valor"	TEXT NOT NULL,
+	"fecha_hora"	TEXT NOT NULL DEFAULT current_timestamp,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
+COMMIT;
