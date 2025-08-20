@@ -40,4 +40,4 @@ def sensor():
     print(f"nombre : {nombre} | valor : {valor}") #Esto se va ver en la terminal
     db = cerrarConexion()
 
-    return "ok" #Esto se mando como response a la página
+    return {"Resultado": "ok"} #Mensaje jsonificado automaticamente, sin usar "jsonify"
