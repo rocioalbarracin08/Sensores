@@ -1,0 +1,11 @@
+Hecho en package.json------------------------------------------------------------
+"type": "module" -> Para que se pueda IMPORTAR con input, sino con se importa con ecuaiet
+"start": "node server.js" //para no poner npm run start siempre 
+
+Hecho en ------------------------------------------------------------
+
+Hecho en ------------------------------------------------------------
+
+Hecho en ------------------------------------------------------------
+
+Hecho en ------------------------------------------------------------
