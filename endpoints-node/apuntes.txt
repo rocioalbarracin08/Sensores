@@ -2,7 +2,17 @@ Hecho en package.json-----------------------------------------------------------
 "type": "module" -> Para que se pueda IMPORTAR con input, sino con se importa con ecuaiet
 "start": "node server.js" //para no poner npm run start siempre 
 
-Hecho en ------------------------------------------------------------
+Hecho en "db.js" ------------------------------------------------------------
+//Pool = un tipo de dato | Expresada dentro de la documentacion create pool
+//npm install dotenv: Para no exponer claves de entorno (ej: contraseña) | Para TODO uso de otras pages
+
+En .env -> Archivo para guardar variables de entorno (claves de usuario)
+En server.js -> try y catch : para saber cual es el problema que se nos esta ejecutando
+ - asyn: nuestro código se va ejecutar de forma asíncrona (Peticion al servidor y hay que esperarla)
+ - await: Espera, lo usamos siempre con algo asincrono 
+
+ ATENTA AL EXPORT POOL QUE LUEGO LO IMPORTAS!!
+ TENER EN CUENTA LA IMPORTACIÓN DEL DOTENENV (en "db.js"con : import dotenv from "dotenv" - dotenv.config()--)
 
 Hecho en ------------------------------------------------------------
 
